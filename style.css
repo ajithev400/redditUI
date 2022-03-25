@@ -296,7 +296,7 @@
 }
 .right-section{
     border-radius: 5px 5px 0 0;
-    background-image: url('/reddit/images/posts/post3.jpg');
+    background-image: url('images/posts/post3.jpg');
     width: 100%;
     height: 10rem;
     background-size: contain;
