@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    font-family: IBMPlexSans;
+}
+.nav{
+    display: flex;
+    width: 1519px;
+    height: 49px;
+    background-color: #edeff1;
+    position: fixed;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 0 20px;
+    border-bottom: 1px black;
+    align-items: center;
+}
+.logo img{
+    width: 117px;
+    height: 48px;
+}
+.nav-button button{
+    width: 268px;
+    height: 34px;
+    margin-left: 1rem;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    cursor: pointer;
+}
+.nav-form{
+    width: 478px;
+    height: 36px;
+    margin-left: 1rem;
+    background-color: #f6f7f8;
+    border-color: #edeff1;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    color: #1c1c1c;
+    display: flex;
+    fill: #1a1a1b;
+    font-size: 14px;
+    align-items: center;
+}
+.nav-form input{
+    width: 100%;
+    height: 34px;
+    border: none;
+    outline: none;
+}
+.icons{
+    width: 300px;
+    height: 36px;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+}
+.icons img{
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.loudsp{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #d4d7d9;
+    align-items: center;
+}
+.icons button{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    width: 78px;
+    height: 32px;
+    border-radius: 999px;
+    background-color: #ddbd37;
+    box-shadow: #eed000 0px 2px 0px 0px;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-profile{
+    width: 238px;
+    height: 44px;
+    background: #edeff1;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+}
+.nav-profile div{
+    margin-top: .5rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+/* mainfeelds */
+.main-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(177, 214, 248);
+}
+.feeds{
+    width: 640px;
+    background-color: rgb(177, 214, 248);
+    margin-top: 5rem;
+    margin-right: 2rem;
+    border-radius: 5px;
+}
+.newpost{
+    width: 640px;
+    height: 58px;
+    background: #ffffff;
+    border-color:#cccccc;
+    display: flex;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+.newpost input{
+    width: 486px;
+    height: 38px;
+    border-radius: 4px;
+    border-width: 1px;
+    font-size: large;
+    outline: none;
+}
+.newpost img{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+.tools{
+    width: 640px;
+    height: 58px;
+    background: #ffffff;
+    border-color:#cccccc;
+    display: flex;
+    border-radius: 3px;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.best-button{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    width: 78px;
+    height: 32px;
+    border-radius: 999px;
+    border: none;
+    background-color: #f0efeb;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    color: #0079d3;
+    cursor: pointer;
+}
+.best-button:hover{
+    background-color: #dad2d2;
+}
+.tool-button{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;
+    width: 70px;
+    height: 32px;
+    border-radius: 999px;
+    border: none;
+    background-color: #ffffff;
+    align-items: center;
+    font-size: medium;
+    font-weight: 200;
+    color: #949596;
+    cursor: pointer;
+}
+.tool-icons{
+    display: flex;
+}
+.more{
+    width: 35px;
+}
+.tool-button:hover{
+    background-color: #f0efeb;
+}
+
+.feed{
+    width: 640px;
+    background-color:#ffffff;
+    border-color:#898989;
+    border-radius:4px;
+    border-style:solid;
+    border-width:1px;
+    color:#878a8c;
+    font-size:14px;
+    line-height:14px;
+    margin-top: 2rem;
+    
+    display: flex;
+}
+.feed .post-action{
+    width: 2.5rem;
+    background-color: #ffff;
+}
+.up-arrow img{
+    height: 24px;
+    width: 24px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.down-arrow img{
+    height: 24px;
+    width: 24px;
+    margin-right: 3px;
+    transform: scale(-1, -1);
+    cursor: pointer;
+}
+.likes h5{
+    font-size: medium;
+    font-weight: 600;
+    color: black;
+}
+.user{
+    margin: 10px;
+    
+}
+.user-pic{
+    display: flex;
+    align-items: center;
+}
+.user-pic img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+.user-post-name{
+    display: flex;
+}
+.user-post-name h2{
+    font-size: larger;
+    color: black;
+    font-family: IBMPlexSans;
+}
+.user-post-name h4{
+    font-size: small;
+    margin-left: 2px;
+    font-family: IBMPlexSans;
+}
+.post-title{
+    margin-top: 1rem;
+}
+.post-title h2{
+    font-size: larger;
+    font-weight: 500;
+    color: black;
+    font-family: IBMPlexSans;
+}
+.user-post{
+    width: 600px;
+}
+.post-actions{
+    width: 602px;
+    height: 36px;
+    display: flex;
+}
+.action-icons{
+    
+    height:35px;
+    margin: 1px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.action-icons:hover{
+    background: #e4e1e1;
+}
+.action-icons img{
+    width: 24px;
+    height: 24px;
+    margin: 8px;
+}
+.right-side{
+    width: 310px;
+    height: 400px;
+    background-color: #ffffff;
+    margin-top: 5rem;
+    border-radius: 5px;
+}
+.right-section{
+    border-radius: 5px 5px 0 0;
+    background-image: url('/reddit/images/posts/post3.jpg');
+    width: 100%;
+    height: 10rem;
+    background-size: contain;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 3px;
+}
+.right-section h2{
+    color: #ffffff;
+    font-family: IBMPlexSans;
+    font-size: larger;
+    margin-bottom: 3px;
+}
+.new-communities{
+    width: 100%;
+    height: 49px;
+    border-bottom: 1px solid #949596;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.new-communities img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.new-communities button{
+    margin-right: 2rem;
+    width: 70px;
+    height: 32px;
+    border-radius: 999px;
+    border: none;
+    background-color: #0079d3;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+}
+.new-communities button:hover{
+    background-color: #0264af;
+}
+.new-communities h1{
+    font-weight: 500;
+    font-size: medium;
+}
+.new-communities h2{
+    margin-left: 2rem;
+}
+.new-communities div{
+    display: flex;
+    align-items: center;
+}
+.community-join{
+    width: 100%;
+    height: 80px;
+    margin-top: 5rem;
+    background-color: #ffffff;
+    align-items: center;
+}
+.community-join .view-all{
+    width: 286px;
+    height: 32px;
+    margin-left: 1rem;
+    border-radius: 999px;
+    border: none;
+    background-color: #0079d3;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    color: #ffffff;
+    cursor: pointer;
+}
+.view-all:hover{
+    background-color: #0264af;
+}
+.comminitie-buttons{
+    display: flex;
+    align-items: center;
+}
+.comminitie-button{
+    margin-left: .5rem;
+    width: 78px;
+    height: 32px;
+    border-radius: 999px;
+    border: none;
+    margin-top: 5px;
+    background-color: #f0efeb;
+    align-items: center;
+    font-size: small;
+    font-weight: 600;
+    color: #0079d3;
+    cursor: pointer;
+}
+.comminitie-button:hover{
+    background-color: #d4d4d4;
+}
+.premium{
+    height: 8rem;
+    margin-top: 1rem;
+    background-image: none;
+    background-color: #ffffff;
+}
+.premium img{
+    width: 40px;
+    height: 40px;
+}
+.premium .shield{
+    padding-top: 1rem;
+    padding-left: .5rem;
+    display: flex;
+    align-items: center;
+}
+.shield h4 h6{
+    font-size: medium;
+}
+.premium .try-now{
+    width: 286px;
+    height: 32px;
+    margin-left: 1rem;
+    border-radius: 999px;
+    border: none;
+    background-color: #ff4500;
+    align-items: center;
+    font-size: large;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+.try-now:hover{
+    background-color: #df440c;
+}
