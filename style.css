@@ -440,9 +440,6 @@
     margin-top: 1rem;
     background-image: none;
     background-color: #ffffff;
-    position: sticky;
-    z-index: 1;
-    top:3rem;
 }
 .footer ul{
     font-size: 11px;
