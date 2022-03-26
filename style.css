@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
 *{
     margin: 0;
     font-family: IBMPlexSans;
@@ -429,4 +431,31 @@
 }
 .try-now:hover{
     background-color: #df440c;
+}
+.footer{
+    display: grid;
+    padding: 3px;
+    grid-template-rows: 8fr 1fr;
+    height: 13rem;
+    margin-top: 1rem;
+    background-image: none;
+    background-color: #ffffff;
+    position: sticky;
+    z-index: 1;
+    top:3rem;
+}
+.footer ul{
+    font-size: 11px;
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Noto Sans', sans-serif;
+}
+.footer p{
+    margin: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    color: #878a8c;
 }
